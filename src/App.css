@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.bounds { 
+  position: center;
+  background-color: #f49EB8;
+}
+.header--logo {
+  background-color: #F49EB8;
+  
+  }
+
+button{ 
+ 
+  background-color: #f49EB8;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  width: 10rem;
+  margin:0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+button:hover {
+
+background: #F06282;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 22px;
+transition: 0.3s;
+}
+button:active { 
+  color:black;
+  transition: 0.3;
+ 
+}
+.signout-btn {
+  position: 10 10 0 0; 
+}
